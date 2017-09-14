@@ -1,5 +1,7 @@
-Standard implementation of the DDPG algorithm with (300,400) hidden units for both the actor and critic networks. 
-https://arxiv.org/abs/1509.02971  
+Standard implementation of the DDPG algorithm 
+https://arxiv.org/abs/1509.02971 
+Coupled with DeepMind's newest ditributional bellman equation update, chekout critic_network.py (loss function) and ddpg.py (train function) for details.
+https://arxiv.org/pdf/1707.06887.pdf
 FILES:
 actor_network.py: The code for structure of the actor network  
 critic_network.py: The code for structure of the critic network  
